@@ -1,5 +1,5 @@
 const config = {
-  apiUrl: "https://autopost007-7icw.vercel.app/api"  
+  apiUrl: "https://autopostb.onrender.com/api"  
 };
 
 export default config;
