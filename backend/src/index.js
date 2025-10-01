@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-    origin: "https://autopost007.vercel.app",
+    origin: "https://autopostf.onrender.com",
     credentials: true
 }));
 app.use(express.json());
