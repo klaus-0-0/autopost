@@ -2,9 +2,13 @@
   "name": "backened",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node src/index.js"
-  },
+"scripts": {
+  "build": "echo \"No build step required\"",
+  "postinstall": "prisma generate",
+  "migrate:deploy": "prisma migrate deploy",
+  "start": "node src/index.js",
+  "deploy": "npm run migrate:deploy && npm start"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
